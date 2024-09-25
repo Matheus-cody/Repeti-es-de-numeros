@@ -1,0 +1,30 @@
+package aula25;
+
+import java.util.Scanner;
+
+public class Aula {
+
+	public static void main(String[] args) {
+		
+	int n,cont=0; 
+	
+	
+	Scanner sc = new Scanner (System.in);
+
+	System.out.println("Qual o Numero?");
+	n = sc.nextInt();
+	
+	
+	do {
+	cont++;
+	System.out.println("Mostre" + cont);
+	}while(cont<n);
+	
+	System.out.println("Encerrou a repetição");
+	
+	sc.close();
+		
+		
+	}
+
+}
